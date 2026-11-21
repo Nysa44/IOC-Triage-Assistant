@@ -1,0 +1,8 @@
+indicator,category,date_added
+198.51.100.10,phishing,2026-11-11
+203.0.113.20,command-and-control,2026-11-15
+192.0.2.30,malware-download,2026-11-02
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,malware,2026-11-03
+evil-login.example,phishing,2026-11-17
+198.51.100.44,botnet,2026-11-18
+dddddddddddddddddddddddddddddddddddddddd,malware,2026-10-30

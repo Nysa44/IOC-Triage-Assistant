@@ -1,0 +1,10 @@
+{
+  "command-and-control": [{"id":"T1071","name":"Application Layer Protocol","url":"https://attack.mitre.org/techniques/T1071/"}],
+  "malware-c2": [{"id":"T1071","name":"Application Layer Protocol","url":"https://attack.mitre.org/techniques/T1071/"}],
+  "phishing": [{"id":"T1566","name":"Phishing","url":"https://attack.mitre.org/techniques/T1566/"}],
+  "malware-download": [{"id":"T1105","name":"Ingress Tool Transfer","url":"https://attack.mitre.org/techniques/T1105/"}],
+  "malware": [{"id":"T1587","name":"Develop Capabilities","url":"https://attack.mitre.org/techniques/T1587/"}],
+  "ransomware": [{"id":"T1486","name":"Data Encrypted for Impact","url":"https://attack.mitre.org/techniques/T1486/"}],
+  "botnet": [{"id":"T1584","name":"Compromise Infrastructure","url":"https://attack.mitre.org/techniques/T1584/"}],
+  "credential-theft": [{"id":"T1056","name":"Input Capture","url":"https://attack.mitre.org/techniques/T1056/"}]
+}

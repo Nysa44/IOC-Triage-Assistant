@@ -1,0 +1,529 @@
+[
+  {
+    "indicator": "198[.]51[.]100[.]10",
+    "indicator_type": "ip",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "phishing",
+        "date_added": "2026-11-10"
+      },
+      {
+        "source": "demo_feed_beta",
+        "category": "phishing",
+        "date_added": "2026-11-11"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing",
+        "url": "https://attack.mitre.org/techniques/T1566/"
+      }
+    ],
+    "score": 90,
+    "band": "high",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "Listed by 2 or more independent feed files (+25)",
+      "High-risk category present (+30)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 2 local feed match(es). ATT&CK mappings: T1566. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "198[.]51[.]100[.]44",
+    "indicator_type": "ip",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "botnet",
+        "date_added": "2026-11-18"
+      },
+      {
+        "source": "demo_feed_beta",
+        "category": "botnet",
+        "date_added": "2026-11-18"
+      },
+      {
+        "source": "demo_feed_gamma",
+        "category": "botnet",
+        "date_added": "2026-11-19"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1584",
+        "name": "Compromise Infrastructure",
+        "url": "https://attack.mitre.org/techniques/T1584/"
+      }
+    ],
+    "score": 90,
+    "band": "high",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "Listed by 2 or more independent feed files (+25)",
+      "High-risk category present (+30)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 3 local feed match(es). ATT&CK mappings: T1584. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "203[.]0[.]113[.]20",
+    "indicator_type": "ip",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "malware-c2",
+        "date_added": "2026-11-15"
+      },
+      {
+        "source": "demo_feed_beta",
+        "category": "command-and-control",
+        "date_added": "2026-11-15"
+      },
+      {
+        "source": "demo_feed_gamma",
+        "category": "malware-c2",
+        "date_added": "2026-11-16"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1071",
+        "name": "Application Layer Protocol",
+        "url": "https://attack.mitre.org/techniques/T1071/"
+      }
+    ],
+    "score": 90,
+    "band": "high",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "Listed by 2 or more independent feed files (+25)",
+      "High-risk category present (+30)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 3 local feed match(es). ATT&CK mappings: T1071. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "indicator_type": "hash",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "malware",
+        "date_added": "2026-11-01"
+      },
+      {
+        "source": "demo_feed_beta",
+        "category": "malware",
+        "date_added": "2026-11-03"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1587",
+        "name": "Develop Capabilities",
+        "url": "https://attack.mitre.org/techniques/T1587/"
+      }
+    ],
+    "score": 90,
+    "band": "high",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "Listed by 2 or more independent feed files (+25)",
+      "High-risk category present (+30)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 2 local feed match(es). ATT&CK mappings: T1587. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "evil-login[.]example",
+    "indicator_type": "domain",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "phishing",
+        "date_added": "2026-11-16"
+      },
+      {
+        "source": "demo_feed_beta",
+        "category": "phishing",
+        "date_added": "2026-11-17"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1566",
+        "name": "Phishing",
+        "url": "https://attack.mitre.org/techniques/T1566/"
+      }
+    ],
+    "score": 90,
+    "band": "high",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "Listed by 2 or more independent feed files (+25)",
+      "High-risk category present (+30)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 2 local feed match(es). ATT&CK mappings: T1566. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "indicator_type": "hash",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "ransomware",
+        "date_added": "2026-11-19"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1486",
+        "name": "Data Encrypted for Impact",
+        "url": "https://attack.mitre.org/techniques/T1486/"
+      }
+    ],
+    "score": 65,
+    "band": "medium",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "High-risk category present (+30)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 1 local feed match(es). ATT&CK mappings: T1486. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "dddddddddddddddddddddddddddddddddddddddd",
+    "indicator_type": "hash",
+    "matches": [
+      {
+        "source": "demo_feed_beta",
+        "category": "malware",
+        "date_added": "2026-10-30"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1587",
+        "name": "Develop Capabilities",
+        "url": "https://attack.mitre.org/techniques/T1587/"
+      }
+    ],
+    "score": 65,
+    "band": "medium",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "High-risk category present (+30)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 1 local feed match(es). ATT&CK mappings: T1587. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "indicator_type": "hash",
+    "matches": [
+      {
+        "source": "demo_feed_gamma",
+        "category": "ransomware",
+        "date_added": "2026-11-19"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1486",
+        "name": "Data Encrypted for Impact",
+        "url": "https://attack.mitre.org/techniques/T1486/"
+      }
+    ],
+    "score": 65,
+    "band": "medium",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "High-risk category present (+30)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 1 local feed match(es). ATT&CK mappings: T1486. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "192[.]0[.]2[.]30",
+    "indicator_type": "ip",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "malware-download",
+        "date_added": "2026-10-29"
+      },
+      {
+        "source": "demo_feed_beta",
+        "category": "malware-download",
+        "date_added": "2026-11-02"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1105",
+        "name": "Ingress Tool Transfer",
+        "url": "https://attack.mitre.org/techniques/T1105/"
+      }
+    ],
+    "score": 60,
+    "band": "medium",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "Listed by 2 or more independent feed files (+25)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 2 local feed match(es). ATT&CK mappings: T1105. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "indicator_type": "hash",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "credential-theft",
+        "date_added": "2026-11-12"
+      },
+      {
+        "source": "demo_feed_gamma",
+        "category": "credential-theft",
+        "date_added": "2026-11-13"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1056",
+        "name": "Input Capture",
+        "url": "https://attack.mitre.org/techniques/T1056/"
+      }
+    ],
+    "score": 60,
+    "band": "medium",
+    "reasons": [
+      "Listed in at least one local feed (+20)",
+      "Listed by 2 or more independent feed files (+25)",
+      "At least one listing is 30 days old or newer (+15)"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Evidence: 2 local feed match(es). ATT&CK mappings: T1056. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "bad-update[.]example",
+    "indicator_type": "domain",
+    "matches": [
+      {
+        "source": "demo_feed_alpha",
+        "category": "malware-download",
+        "date_added": "2026-10-01"
+      }
+    ],
+    "techniques": [
+      {
+        "id": "T1105",
+        "name": "Ingress Tool Transfer",
+        "url": "https://attack.mitre.org/techniques/T1105/"
+      }
+    ],
+    "score": 20,
+    "band": "low",
+    "reasons": [
+      "Listed in at least one local feed (+20)"
+    ],
+    "needs_human_review": false,
+    "analyst_note": "Evidence: 1 local feed match(es). ATT&CK mappings: T1105. Next step: analyst review and corroboration with internal telemetry."
+  },
+  {
+    "indicator": "1[.]1[.]1[.]1",
+    "indicator_type": "ip",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "2606[:]4700[:]4700[:][:]1111",
+    "indicator_type": "ip",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "8[.]8[.]8[.]8",
+    "indicator_type": "ip",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "9[.]9[.]9[.]9",
+    "indicator_type": "ip",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "clean-example[.]com",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "cloudflare[.]com",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "example[.]org",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "github[.]com",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "iana[.]org",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "openai[.]com",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "www[.]ibm[.]com",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "www[.]microsoft[.]com",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "www[.]python[.]org",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  },
+  {
+    "indicator": "www[.]wikipedia[.]org",
+    "indicator_type": "domain",
+    "matches": [],
+    "techniques": [],
+    "score": 0,
+    "band": "low",
+    "reasons": [
+      "No local blocklist matches"
+    ],
+    "needs_human_review": true,
+    "analyst_note": "Insufficient evidence: no local feed match. Validate using approved internal telemetry."
+  }
+]
