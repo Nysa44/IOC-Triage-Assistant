@@ -110,7 +110,3 @@ The mapping file is intentionally small and illustrative. Technique names and ID
 ```bash
 pytest -q
 ```
-
-## Suggested GitHub description
-
-Evidence-grounded IOC triage CLI: local-feed enrichment, SQLite storage, explainable scoring, MITRE ATT&CK context, defanged reports and optional schema-validated LLM analyst notes. Offline by default.
